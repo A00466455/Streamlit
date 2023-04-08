@@ -9,7 +9,7 @@ st.title("Iris Prediction Class Work")
 LABELS = ['setosa', 'versicolor', 'virginica']
 
 #loading model from the created pickle file
-clf = load("/Users/shiney/Desktop/iris-prediction.joblib")
+clf = load("/Users/shiney/Desktop/DT-prediction.joblib")
 
 #creating sliders 
 sp_l = st.slider('sepal length (cm)', min_value=0, max_value=10)
